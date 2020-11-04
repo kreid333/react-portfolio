@@ -5,6 +5,7 @@ import Projects from "./pages/Projects/Projects";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import "./assets/css/App.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             </div>
           </div>
         </div>
+        <Footer />
       </Router>
     </>
   );
