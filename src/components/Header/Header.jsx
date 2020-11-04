@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
 
 const Header = () => {
   return (
@@ -32,12 +31,15 @@ const Header = () => {
               <i className="fas fa-user-tie fa-2x"></i>
             </a>
           </div>
-          <br/>
+          <br />
           <div>
-              <p><Link to="/">Home</Link></p>
-              <p><Link to="/projects">Projects</Link></p>
-              <p><Link to="/proficiencies">Proficiencies</Link></p>
-              <p><Link to="/contact">Contact</Link></p>
+            <p>
+              <Link className="navlink" to="/">Home</Link>
+              <span> / </span>
+              <Link className="navlink" to="/projects">Projects</Link>
+              <span> / </span>
+              <Link className="navlink" to="/contact">Contact</Link>
+            </p>
           </div>
         </div>
       </div>
