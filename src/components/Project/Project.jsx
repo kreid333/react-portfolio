@@ -3,8 +3,8 @@ import React from "react";
 const Project = ({title, image, description, technologies, repo, deployed}) => {
   return (
     <div className="card">
-      <div className="card-header project-header">
-        <h4>{title}</h4>
+      <div className="card-header">
+        <h2 className="text-center">{title}</h2>
       </div>
       <div className="card-body">
         <div className="img-div">
