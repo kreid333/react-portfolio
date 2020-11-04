@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "./files/Kai Reid Resume.pdf"
 
 const Header = () => {
   return (
@@ -24,7 +25,7 @@ const Header = () => {
               <i className="fab fa-linkedin fa-2x"></i>
             </a>
             <a
-              href="./assets/files/Kai Reid Resume.pdf"
+              href={Resume}
               target="_blank"
               className="font-link"
             >
