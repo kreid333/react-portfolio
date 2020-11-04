@@ -6,6 +6,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+    margin-bottom: 5px;
+}
+
 .row {
     margin-bottom: 100px;
 }
